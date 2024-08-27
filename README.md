@@ -10,7 +10,7 @@ una empresa de tecnologie e inovacion, la cual, en un proyecto junto al minister
 medioambiente necesitan implementar una interfaz grafica que permita manejar y mostrar
 en un mapa distintos semaforos que  indican la calidad del aire.
 
-Link de figma: https://www.figma.com/design/8KPi8kh9bfXI3beqoF6dm5/Monitoreo-de-aire?node-id=0-1&t=v2wQz5iNwGRrrfsZ-0
+Link de figma: https://www.figma.com/design/tXHDp6oZXnSSmCe95MtALs/Proyecto-aplicación?t=Q9bntFEMT9PfivO1-0
 
 Integrantes y funcionalidades:
 
