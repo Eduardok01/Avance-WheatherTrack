@@ -37,7 +37,9 @@ Integrantes y funcionalidades:
 
 
 Actualización para la entrega 2 del avance del proyecto:
-El integrante del grupo Danien sepulveda ha abandonado el proyecto, sus funcionalidades eran:
+-El proyecto en figma es el mismo archivo presentado en la entrega 1, solo que ahora contiene una version 2 (v2) en caso de que se desee comparar ambas versiones.
+
+-El integrante del grupo Danien sepulveda ha abandonado el proyecto, sus funcionalidades eran:
 recopilación y procesamiento de datos, integración de sensores y validación y ajustes.
 
 Respecto al proyecto, se planea continuar con el mismo modificando ciertos aspectos de funcionalidades para una mejor adaptacion hacia el futuro, se planea continuar trabajando junto al estudiante () posteriormente a la entrega del avance 2
