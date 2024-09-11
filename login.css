@@ -1,0 +1,181 @@
+.login{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.login .div{
+    background-color: #ffffff;
+    width: 1280px;
+    height: 832px;
+    position: relative;
+}
+
+.login .logo{
+    position: absolute;
+    width: 162px;
+    height: 73px;
+    top: 55px;
+    left: 13px;
+}
+
+.login.overlap{
+    position: absolute;
+    width: 261px;
+    height: 95px;
+    top: 191px;
+    left: 65px;
+}
+
+.login .title{
+    position: absolute;
+    top:0;
+    left:0;
+    font-family: "Nunito Sans-bold", Helvetica;
+    font-weight: 700;
+    color: #202224;
+    font-size: 32px;
+    letter-spacing: -0.11px;
+    line-height: normal;
+}
+
+.login .subtitle{
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    font-family: "Nunito Sans-bold", Helvetica;
+    font-weight: 600;
+    color: #202224;
+    font-size: 18px;
+    letter-spacing: -0.6px;
+    line-height: normal;
+}
+
+.login .email-address{
+    position: absolute;
+    top: 206px;
+    left: 659px;
+    opacity: 0.8;
+    font-family: "Nunito Sans-bold", Helvetica;
+    font-weight: 600;
+    color: #202224;
+    font-size: 18px;
+    letter-spacing: -0.6px;
+    line-height: normal;
+}
+
+.login .input{
+    top: 239px;
+    background-color: #ffffff;
+    border-color: #656565;
+    position: absolute;
+    width: 516px;
+    height: 56px;
+    left: 640px;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.login .password{
+    position: absolute;
+    top: 314px;
+    left: 644px;
+    font-family: "Nunito Sans-bold", Helvetica;
+    font-weight: 600;
+    color: #202224;
+    font-size: 18px;
+    letter-spacing: -0.06px;
+    line-height: normal;
+}
+
+.login .input-2{
+    top: 360px;
+    background-color: #ffffffbf;
+    border-color: #757575;
+    position: absolute;
+    width: 516px;
+    height: 56px;
+    left: 640px;
+    border-radius: 8px;
+    border: 1px solid;
+
+}
+
+.login.check{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 436px;
+    left: 647px;
+}
+
+.login .overlap-group{
+    position: absolute;
+    width: 514px;
+    height: 29px;
+    top: 431px;
+    left: 671px;
+}
+
+.login .remember-password{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    font-family: "Nunito Sans-bold", Helvetica;
+    font-weight: 600;
+    color: #202224;
+    font-size: 18px;
+    letter-spacing: -0.6px;
+    line-height: normal;
+}
+
+.login .text-wrapper{
+    position: absolute;
+    width: 330px;
+    top: 3px;
+    left: 184px;
+    font-family: "Nunito Sans-bold", Helvetica;
+    font-weight: 700;
+    color: #448cff;
+    text-align: center;
+    letter-spacing: -0.7px;
+    line-height: normal;
+    text-decoration: underline;
+}
+
+.login .overlap-group-2{
+    position: absolute;
+    width: 140px;
+    height: 58px;
+    top: 538px;
+    left: 1017px;
+    border-radius: 30px;
+
+}
+
+.login .rectangle{
+    position: absolute;
+    width: 140px;
+    height: 58px;
+    top: 0;
+    left: 0;
+    background-color: #448cff;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+
+.login .sign.in{
+    position: absolute;
+    width: 107px;
+    top: 15px;
+    left: 16px;
+    font-family: "Nunito Sans-bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: -0.7px;
+    line-height: normal;
+}
