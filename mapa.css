@@ -1,0 +1,144 @@
+.mapa {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.mapa .div {
+  background-color: #ffffff;
+  width: 1280px;
+  height: 832px;
+  position: relative;
+}
+
+.mapa .overlap-group {
+  position: absolute;
+  width: 1181px;
+  height: 664px;
+  top: 31px;
+  left: 49px;
+  background-image: url(./img/image-10.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.mapa .image {
+  top: 76px;
+  left: 62px;
+  position: absolute;
+  width: 102px;
+  height: 101px;
+  object-fit: cover;
+}
+
+.mapa .img {
+  top: 480px;
+  left: 83px;
+  position: absolute;
+  width: 102px;
+  height: 101px;
+  object-fit: cover;
+}
+
+.mapa .image-2 {
+  top: 480px;
+  left: 423px;
+  position: absolute;
+  width: 102px;
+  height: 101px;
+  object-fit: cover;
+}
+
+.mapa .image-3 {
+  top: 99px;
+  left: 363px;
+  position: absolute;
+  width: 102px;
+  height: 101px;
+  object-fit: cover;
+}
+
+.mapa .image-4 {
+  top: 456px;
+  left: 769px;
+  position: absolute;
+  width: 102px;
+  height: 101px;
+  object-fit: cover;
+}
+
+.mapa .overlap {
+  position: absolute;
+  width: 140px;
+  height: 58px;
+  top: 749px;
+  left: 289px;
+  border-radius: 30px;
+}
+
+.mapa .rectangle {
+  position: absolute;
+  width: 140px;
+  height: 58px;
+  top: 0;
+  left: 0;
+  background-color: #448cff;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+.mapa .sign-in {
+  position: absolute;
+  width: 107px;
+  top: 15px;
+  left: 16px;
+  font-family: "Nunito Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.07px;
+  line-height: normal;
+}
+
+.mapa .overlap-2 {
+  position: absolute;
+  width: 140px;
+  height: 58px;
+  top: 749px;
+  left: 471px;
+  border-radius: 30px;
+}
+
+.mapa .overlap-3 {
+  position: absolute;
+  width: 140px;
+  height: 58px;
+  top: 749px;
+  left: 667px;
+  border-radius: 30px;
+}
+
+.mapa .overlap-4 {
+  position: absolute;
+  width: 140px;
+  height: 82px;
+  top: 749px;
+  left: 850px;
+}
+
+.mapa .text-wrapper {
+  top: 1px;
+  position: absolute;
+  width: 107px;
+  left: 16px;
+  font-family: "Nunito Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.07px;
+  line-height: normal;
+}

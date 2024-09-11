@@ -1,0 +1,99 @@
+.registro{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.registro .div{
+    background-color: #ffffff;
+    width: 1280px;
+    height: 832px;
+    position: relative;
+}
+
+.registro .image{
+    position: absolute;
+    width: 599px;
+    height: 561px;
+    top: 41px;
+    left: 375px;
+    object-fit: cover;
+
+}
+
+.registro .overlap{
+    height: 58px;
+    left: 324px;
+    border-radius: 30px;
+    position: absolute;
+    width: 140px;
+    top: 665px;
+}
+
+.registro .rectangle{
+    position: absolute;
+    width: 140px;
+    height: 58px;
+    top: 0;
+    left: 0;
+    background-color: #448cff;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+
+.registro .sing-in{
+    position: absolute;
+    width: 107px;
+    top: 15px;
+    left: 16px;
+    font-family: "Nunito Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: -0.07px;
+    line-height: normal;
+}
+
+.registro .overlap-group{
+    height: 580px;
+    left: 506px;
+    border-radius: 30px;
+    position: absolute;
+    width: 140px;
+    top: 665px;
+}
+
+.registro .overlap-2{
+    height: 58px;
+    left: 702px;
+    border-radius: 30px;
+    position: absolute;
+    width: 140px;
+    top: 665px;
+}
+
+
+.registro .overlap-3{
+    height: 82px;
+    left: 885px;
+    position: absolute;
+    width: 140px;
+    top: 665px;
+}
+
+.registro .text-wrapper{
+    top: 1px;
+    position: absolute;
+    width: 107px;
+    left: 16px;
+    font-family: "Nunito Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: -0.07px;
+    line-height: normal;
+}
