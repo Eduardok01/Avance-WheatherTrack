@@ -10,17 +10,16 @@
   import 'mapbox-gl/dist/mapbox-gl.css'
   
   // Reemplazar 'YOUR_MAPBOX_ACCESS_TOKEN' con el token de acceso de Mapbox.
-  // En este caso se ocupa con casos demostrativos el mapa con el siguiente token de acceso.
   mapboxgl.accessToken = 'pk.eyJ1IjoiYWF2ZW5kYW5vMDQiLCJhIjoiY20yYWxxY2JhMGh2NDJzcHltZzh4ZmJnNyJ9.AilIZoUNRF1i5aLnk5zdpg'
   
   const map = ref(null)
   
   onMounted(() => {
     map.value = new mapboxgl.Map({
-      container: 'map', // ID del div donde se monta el mapa
+      container: 'map',
       style: 'mapbox://styles/mapbox/streets-v11', // Estilo del mapa
       center: [-72.6173, -38.7490], // Ubicación Universidad de La Frontera. Temuco, Chile,
-      zoom: 15 // Nivel de zoom inicial
+      zoom: 15 // Nivel de zoom inicial del mapa
     })
   
     // Agrega un marcador de ejemplo (Este caso ubicado en la UFRO)
