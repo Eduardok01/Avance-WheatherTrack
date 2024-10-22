@@ -23,4 +23,4 @@ Integrantes y funcionalidades:
 
 Actualización para la entrega 3 del avance del proyecto:
 + Se ocupara la V2 del proyecto propuesto en el avance-2, presentado con anterioridad en el Figma. El compañero "Ignacio Manríquez" se encargara de las antiguas funcionalidades de "Daniel Sepulveda", modificandolas y ajustandolas de la siguiente manera.
-  - Las funcionalidades de recopilación y procesamiento de datos, integración de sensores y validación y ajustes. Seran logisticamente reajustadas por la falta de recursos para su implementación (en vez de sensores, sera por medio de la funcionalidad de Scrapping). En base a esa funcionalidad, se podra integrar con las anteriormente mencionadas.
+- Las funcionalidades de recopilación y procesamiento de datos, integración de sensores y validación y ajustes. Seran logisticamente reajustadas por la falta de recursos para su implementación (en vez de sensores, sera por medio de la funcionalidad de Scrapping). En base a esa funcionalidad, se podra integrar con las anteriormente mencionadas.
