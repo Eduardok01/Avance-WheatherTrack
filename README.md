@@ -7,6 +7,7 @@ Descripcion del proyecto: el proyecto consiste en desarrollar una aplicacion par
 
 Link de figma: https://www.figma.com/design/tXHDp6oZXnSSmCe95MtALs/Proyecto-aplicación?t=Q9bntFEMT9PfivO1-0
 
+Link del Contrato: https://docs.google.com/document/d/1MvU5e8GLIyvjIvZvHGTVvgBUsz8DWlTtxp2nsKVPcLE/edit?usp=sharing
 
 Integrantes y funcionalidades:  
   + Eduardo Krause:
