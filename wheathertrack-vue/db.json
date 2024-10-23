@@ -1,0 +1,34 @@
+{
+  "user": [
+    {
+      "id": "135f",
+      "name": "eduardo",
+      "email": "eduardo@gmail.com",
+      "password": "intento"
+    },
+    {
+      "id": "2b1c",
+      "email": "dasd",
+      "password": "hdlfgjdk",
+      "name": "asdas"
+    },
+    {
+      "id": "4554",
+      "email": "dos.com",
+      "password": "asdkj",
+      "name": "dos"
+    },
+    {
+      "id": "0c04",
+      "email": "ccc",
+      "password": "ccc",
+      "name": "ccc"
+    }
+  ],
+  "color": [
+    {
+      "color": "red",
+      "id": "1"
+    }
+  ]
+}
