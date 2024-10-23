@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'process.env.5cc5ea727bacf0116e07f13bf3ab5ba6';
+const API_KEY = 'A';
 const BASE_URL = 'http://api.openweathermap.org/data/2.5/air_pollution';
 
 export async function getAirQuality(lat, lon) {

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'process.env.d88ef262773794780e8511cf8bbcdc2347707e30';
+const API_KEY = 'A';
 const BASE_URL = 'https://api.waqi.info/feed';
 
 export async function getAirQuality(city) {
