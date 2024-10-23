@@ -1,7 +1,7 @@
 <template>
     <div class = "nav">
-        <a href ="#">Home</a>
-        <a href ="#">semáforo</a>
+        <a v-on:click="Home" href ="#">Home</a>
+        <a v-on:click="semaforo" href ="#">semáforo</a>
         <a href ="#">Mapa</a>
         <a href ="#">Registro</a>
         <a v-on:click="logout" href ="#">cerrar sesión</a>
@@ -18,7 +18,14 @@ export default{
             localStorage.clear();
             this.$router.push({name:'Login'})
 
+        },
+        Home(){
+            this.$router.push({name:'Home'})
+        },
+        semaforo(){
+            this.$router.push({name:'traficLight'})
         }
+        
     }
 }
 
