@@ -1,11 +1,10 @@
- Dev_vue_Eduardo-Krause
 import HomePage from '../components/HomePage.vue'
 import SignUp from '../components/SignUp.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import LoginPage from '../components/LoginPage.vue';
 import SemaforoPage from '../components/SemaforoPage.vue';
 
-import { createRouter, createWebHistory } from 'vue-router';
+
 import AirQualityView from '../views/AirQualityView.vue';
 import AirQualityOpenWeather from '../views/AirQualityOpenWeather.vue';
 import AirQualityWAQI from '../views/AirQualityWAQI.vue';
