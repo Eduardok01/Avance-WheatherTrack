@@ -27,14 +27,10 @@
   ],
   "color": [
     {
-      "color": "yellow",
+      "color": "green",
       "id": "1"
     }
   ],
-  "air_quality": [
-
-  ],
-  "scrapping_data": [
-    
-  ]
+  "air_quality": [],
+  "scrapping_data": []
 }

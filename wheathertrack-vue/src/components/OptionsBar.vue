@@ -35,7 +35,8 @@ export default{
             this.$router.push({name:'Register'})
         },
         logout(){
-            this.$router.push({name:'Logout'})
+            localStorage.clear();
+            this.$router.push({name:'Login'})
         }
     }
 }

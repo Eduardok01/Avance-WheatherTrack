@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1>Hello User</h1>
+      <h1></h1>
       <div :style="{ backgroundColor: currentColor }" class="current-color-circle"></div>
       <OptionsBar />
     </div>
