@@ -1,22 +1,21 @@
 <template>
- 
-  <router-view></router-view>
+  <router-view>
+    
+  </router-view>
   <nav>
     
   </nav>
-  <MapboxMap msg="Mapa"/>
+  <HomePage msg="Inicio"/>
 </template>
 
 <script>
-import MapboxMap from './components/mapbox/MapboxMap.vue';
-
+import HomePage from './components/HomePage.vue';
 
 export default {
   name: 'App',
   components: {
-    MapboxMap
+    HomePage
   }
-  
 
 }
 </script>

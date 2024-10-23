@@ -1,28 +1,29 @@
 <template>
     <div>
-        <h2>Calidad del Aire (OpenWeatherMap)</h2>
+        <h2>Calidad del Aire (WAQI)</h2>
         <ul v-if="airQualityData">
-            <li>AQI: {{ airQualityData.list[0].main.aqi }} ({{ airQualityStatus }})</li>
-            <li>Niveles de PM2.5: {{ airQualityData.list[0].components.pm2_5 }}</li>
-            <li>Niveles de PM10: {{ airQualityData.list[0].components.pm10 }}</li>
+            <li>AQI: {{ airQualityData.data.aqi }} ({{ airQualityStatus }})</li>
+            <li>Niveles de PM2.5: {{ airQualityData.data.iaqi.pm25.v }}</li>
+            <li>Niveles de PM10: {{ airQualityData.data.iaqi.pm10.v }}</li>
             <li>Última Actualización: {{ lastUpdate }}</li>
         </ul>
     </div>
 </template>
   
 <script>
-import { getAirQuality } from '../api/openweathermap/api';
-  
+import { getAirQuality } from '../../api/waqi/api';
+
 export default {
     data() {
         return {
+            city: 'Santiago',
             airQualityData: null,
             lastUpdate: '',
         };
     },
     computed: {
         airQualityStatus() {
-            const aqi = this.airQualityData?.list[0].main.aqi;
+            const aqi = this.airQualityData?.data.aqi;
             if (aqi <= 50) return 'Bueno';
             if (aqi <= 100) return 'Regular';
             if (aqi <= 150) return 'Alerta';
@@ -31,12 +32,10 @@ export default {
         }
     },
     async created() {
-        const lat = 51.51; // Ejemplo de latitud
-        const lon = -0.13; // Ejemplo de longitud
         try {
-            const data = await getAirQuality(lat, lon);
+            const data = await getAirQuality(this.city);
             this.airQualityData = data;
-            this.lastUpdate = new Date(data.list[0].dt * 1000).toLocaleString();
+            this.lastUpdate = data.data.time.s;
         } catch (error) {
             console.error('Error loading air quality data');
         }

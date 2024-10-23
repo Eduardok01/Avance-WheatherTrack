@@ -1,5 +1,5 @@
 <template>
-    <h1>sign up</h1>
+    <h1>Sign up</h1>
     <div class = "register">
         <input type="text" v-model="name" placeholder="Enter name" />
         <input type="text" v-model = "email" placeholder="Enter email" />
