@@ -31,6 +31,9 @@
       "id": "1"
     }
   ],
-  "air_quality": [],
-  "scrapping_data": []
+  "air-quality": [
+    {
+      
+    }
+  ]
 }

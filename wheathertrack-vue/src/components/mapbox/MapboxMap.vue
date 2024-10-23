@@ -16,7 +16,7 @@
   
   onMounted(() => {
   // Inicializa el mapa de Leaflet
-  map.value = L.map('map').setView([-38.7490,-72.6173], 15)
+  map.value = L.map('map').setView([-38.7490,-72.6173], 13)
 
   // Capa base de OpenStreetMap
   const OSM_URL = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'

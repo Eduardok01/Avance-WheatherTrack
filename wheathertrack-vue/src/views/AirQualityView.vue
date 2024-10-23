@@ -1,22 +1,22 @@
 <template>
   <div>
-    <AirQualityOpenWeather />
-    <AirQualityWAQi />
+    <AirQualityWidget />
+    <CityAirQuality />
     <CitySearch />
   </div>
 </template>
   
 <script>
-import AirQualityOpenWeather from '../components/data/AirQualityOpenWeather.vue';
-import AirQualityWAQi from '../components/data/AirQualityWAQI.vue';
+import AirQualityWidget from '../components/data/AirQualityWidget.vue';
+import CityAirQuality from './CityAirQuality.vue';
 import CitySearch from './CitySearch.vue';
   
 export default {
   name: 'AirQualityView',
   components: {
-    AirQualityOpenWeather,
-    AirQualityWAQi,
-    CitySearch
+    AirQualityWidget,
+    CityAirQuality,
+    CitySearch,
   }
 };
 </script>

@@ -3,14 +3,12 @@ import SignUp from '../components/SignUp.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import LoginPage from '../components/LoginPage.vue';
 import SemaforoPage from '../components/SemaforoPage.vue';
-
 import AirQualityView from '../views/AirQualityView.vue';
-import AirQualityOpenWeather from '../components/data/AirQualityOpenWeather.vue';
-import AirQualityWAQI from '../components/data/AirQualityWAQI.vue';
+import AirQualityWidget from '../components/data/AirQualityWidget.vue';
 import ScrappingView from '@/views/ScrappingView.vue';
-import ValidationView from '@/views/ValidationView.vue';
 import MapboxMap from '@/components/mapbox/MapboxMap.vue';
 import CitySearch from '@/views/CitySearch.vue';
+import Register from '@/views/Register.vue';
 
 const routes = [
   {
@@ -49,24 +47,19 @@ const routes = [
     component: CitySearch
   },
   {
-    path: '/validation',
-    name: 'Validation',
-    component: ValidationView
-  },
-  {
-    path: '/air-quality-openweathermap',
-    name: 'AirQualityOpenWeather',
-    component: AirQualityOpenWeather
-  },
-  {
-    path: '/air-quality-waqi',
-    name: 'AirQualityWAQI',
-    component: AirQualityWAQI
+    path: '/air-quality-widgrt',
+    name: 'AirQualityWidget',
+    component: AirQualityWidget
   },
   {
     path: '/map',
     name: 'MapboxMap',
     component: MapboxMap
+  },
+  {
+    path: '/register',
+    name: 'Register',
+    component: Register
   }
 ];
 
@@ -75,7 +68,6 @@ const router = createRouter({
     history: createWebHistory(),
     routes
 })
-
 
 export default router
 

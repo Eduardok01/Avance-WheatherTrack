@@ -1,6 +1,6 @@
 <template>
   <router-view>
-    
+
   </router-view>
   <nav>
     
@@ -53,12 +53,11 @@ export default {
     cursor: pointer;
 
 }
+
 .semaforo{
   padding: 80px;
   background-color: black;
 }
-
-
 
 .semaforo .verde{
   width: 40px;
@@ -68,6 +67,7 @@ export default {
   padding-right: 10px;
   background-color: green;
 }
+
 .semaforo .amarillo{
   width: 40px;
   height: 40px;
@@ -76,6 +76,7 @@ export default {
   padding-right: 10px;
   background-color: yellow;
 }
+
 .semaforo .naranja{
   width: 40px;
   height: 40px;
@@ -84,6 +85,7 @@ export default {
   padding-right: 10px;
   background-color: orange;
 }
+
 .semaforo .rojo{
   width: 40px;
   height: 40px;
@@ -92,6 +94,7 @@ export default {
   padding-right: 10px;
   background-color: red;
 }
+
 .semaforo .morado{
   width: 40px;
   height: 40px;

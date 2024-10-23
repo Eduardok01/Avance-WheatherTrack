@@ -1,8 +1,8 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-async function scrapeAirQualityData() {
-  const response = await axios.get('URL_DEL_SITIO_WEB');
+async function AirQualityWidget() {
+  const response = await axios.get('https://api.waqi.info/feed/${cityName}/?token=${API_KEY}');
   const $ = cheerio.load(response.data);
 
   const data = [];
