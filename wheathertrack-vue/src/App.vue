@@ -1,15 +1,23 @@
 <template>
+ 
   <router-view></router-view>
   <nav>
     
   </nav>
+  <MapboxMap msg="Mapa"/>
 </template>
 
 <script>
+import MapboxMap from './components/mapbox/MapboxMap.vue';
+
 
 export default {
   name: 'App',
+  components: {
+    MapboxMap
+  }
   
+
 }
 </script>
 
